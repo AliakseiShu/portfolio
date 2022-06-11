@@ -1,7 +1,10 @@
+@import "src/common/styles/sass/variable";
+
 .header {
     height: 80px;
-    background-color: #9ccfea;
+    background-color: $bgColor;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
 }
