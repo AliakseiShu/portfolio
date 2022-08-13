@@ -4,7 +4,7 @@ import style from './Title.module.scss';
 type TitleType ={
     firstName: string
     secondName: string
-    descriptionTitle: string
+    descriptionTitle?: string
 }
 
 export const Title = (props:TitleType) => {
