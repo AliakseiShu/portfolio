@@ -1,23 +1,12 @@
 import React from 'react';
-import './App.css';
-import {Header} from "./header/Header";
-import { Main } from "./main/Main";
-import { Skills } from "./skills/Skills";
-import { Projects } from "./projects/Projects";
-import { Contacts } from "./contacts/contacts";
-import { Footer } from "./footer/Footer";
+import {NavBar} from "./components/NavBar";
 
 function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <Main/>
-      <Skills/>
-      <Projects/>
-      <Contacts/>
-      <Footer/>
-    </div>
-  );
-}
+    return (
+        <div>
+            <NavBar />
 
+        </div>
+    );
+}
 export default App;
