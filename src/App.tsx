@@ -5,6 +5,7 @@ import {SocialLinks} from "./components/SocialLinks";
 import {About} from "./components/About";
 import {Portfolio} from "./components/Portfolio";
 import {Experience} from "./components/Experience";
+import {Contacts} from "./components/Contacts";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <SocialLinks/>
             <Portfolio/>
             <Experience/>
+            <Contacts/>
         </div>
     );
 }
