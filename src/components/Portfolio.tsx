@@ -13,26 +13,31 @@ export const Portfolio = () => {
             id: 1,
             img: todolist,
             hrefDemo: '',
+            hrefCode: 'https://github.com/AliakseiShu/my-todolist',
         },
         {
             id: 2,
             img: socialNetworking,
-            hrefDemo: '',
+            hrefDemo: 'https://aliakseishu.github.io/social-network/#/',
+            hrefCode: 'https://github.com/AliakseiShu/social-network',
         },
         {
             id: 3,
             img: card,
-            hrefDemo: '',
+            hrefDemo: 'https://aliakseishu.github.io/cards/#/login',
+            hrefCode: 'https://github.com/AliakseiShu/cards',
         },
         {
             id: 4,
             img: pizza,
             hrefDemo: 'https://aliakseishu.github.io/cafe/',
+            hrefCode: 'https://github.com/AliakseiShu/cafe',
         },
         {
             id: 5,
             img: sneaker,
-            hrefDemo: '',
+            hrefDemo: 'https://aliakseishu.github.io/internet-shop/',
+            hrefCode: 'https://github.com/AliakseiShu/internet-shop',
         },
     ]
 
@@ -44,14 +49,16 @@ export const Portfolio = () => {
                     <p className="py-6">Check out some of my work right here</p>
                 </div>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                    {portfolios.map(({id, img, hrefDemo}) => (
+                    {portfolios.map(({id, img, hrefDemo, hrefCode}) => (
                         <div key={id} className="shadow-md shadow-cyan-600 rounded-lg">
-                                <img src={img} alt="Todolist" className="rounded-md duration-300 hover:scale-105"/>
+                            <img src={img} alt="Todolist" className="rounded-md duration-300 hover:scale-105"/>
                             <div className="flex items-center justify-center">
                                 <a href={hrefDemo} target="_blank">
-                                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
+                                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
                                 </a>
-                                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button>
+                                <a href={hrefCode} target="_blank">
+                                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button>
+                                </a>
                             </div>
                         </div>))}
                 </div>
