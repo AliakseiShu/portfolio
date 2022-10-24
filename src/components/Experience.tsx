@@ -13,37 +13,37 @@ const techs = [
         id: 1,
         imgTech: html,
         title: 'HTML',
-        style: 'shadow-orange-500',
+        style: 'shadow-cyan-500',
     },
     {
         id: 2,
         imgTech: css,
         title: 'CSS',
-        style: 'shadow-orange-500',
+        style: 'shadow-cyan-500',
     },
     {
         id: 3,
         imgTech: javaScript,
         title: 'JavaScript',
-        style: 'shadow-orange-500',
+        style: 'shadow-cyan-500',
     },
     {
         id: 4,
         imgTech: react,
         title: 'React',
-        style: 'shadow-orange-500',
+        style: 'shadow-cyan-500',
     },
     {
         id: 5,
         imgTech: github,
         title: 'Github',
-        style: 'shadow-orange-500',
+        style: 'shadow-cyan-500',
     },
     {
         id: 6,
         imgTech: tailwind,
         title: 'Tailwind',
-        style: 'shadow-orange-500',
+        style: 'shadow-cyan-500',
     },
 ]
     return (

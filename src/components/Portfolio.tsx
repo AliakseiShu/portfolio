@@ -45,7 +45,7 @@ export const Portfolio = () => {
                 </div>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
                     {portfolios.map(({id, img, hrefDemo}) => (
-                        <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+                        <div key={id} className="shadow-md shadow-cyan-600 rounded-lg">
                                 <img src={img} alt="Todolist" className="rounded-md duration-300 hover:scale-105"/>
                             <div className="flex items-center justify-center">
                                 <a href={hrefDemo} target="_blank">
