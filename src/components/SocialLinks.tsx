@@ -3,6 +3,7 @@ import {FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {SiCodewars} from 'react-icons/si';
+import cv from '../assets/resume.pdf'
 
 export const SocialLinks = () => {
 
@@ -31,9 +32,9 @@ export const SocialLinks = () => {
         {
             id: 5,
             child: (<>Resume<BsFillPersonLinesFill size={30}/></>),
-            href: '/resume.pdf',
+            href: cv,
             style: 'rounded-br-md',
-            download: true
+            download: 'Aliaksei Shulha'
         },
     ]
 
