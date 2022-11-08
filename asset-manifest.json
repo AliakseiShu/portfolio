@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1a314f55.css",
-    "main.js": "/portfolio/static/js/main.17e4b040.js",
+    "main.js": "/portfolio/static/js/main.059e328d.js",
     "static/media/pizza.png": "/portfolio/static/media/pizza.6d38ed2c55753075bc29.png",
     "static/media/card.jpg": "/portfolio/static/media/card.29642eeb5adce940c1d8.jpg",
     "static/media/todolist.jpg": "/portfolio/static/media/todolist.d0d8f86faeb371bd3e19.jpg",
@@ -11,6 +11,7 @@
     "static/media/sneaker.jpg": "/portfolio/static/media/sneaker.b8bd7b32951ad834d4d1.jpg",
     "static/media/logo.png": "/portfolio/static/media/logo.cb0c641b563657e74e1f.png",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/miniTodo.jpg": "/portfolio/static/media/miniTodo.f52a73ef16e278372a05.jpg",
     "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
@@ -18,10 +19,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.1a314f55.css.map": "/portfolio/static/css/main.1a314f55.css.map",
-    "main.17e4b040.js.map": "/portfolio/static/js/main.17e4b040.js.map"
+    "main.059e328d.js.map": "/portfolio/static/js/main.059e328d.js.map"
   },
   "entrypoints": [
     "static/css/main.1a314f55.css",
-    "static/js/main.17e4b040.js"
+    "static/js/main.059e328d.js"
   ]
 }
