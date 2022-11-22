@@ -4,6 +4,7 @@ import socialNetworking from '../assets/portfolio/socialNetwork.jpg';
 import card from '../assets/portfolio/card.jpg';
 import pizza from '../assets/portfolio/pizza.png';
 import sneaker from '../assets/portfolio/sneaker.jpg';
+import miniTodolist from '../assets/portfolio/miniTodo.jpg';
 
 
 export const Portfolio = () => {
@@ -11,9 +12,9 @@ export const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            img: todolist,
-            hrefDemo: '',
-            hrefCode: 'https://github.com/AliakseiShu/my-todolist',
+            img: miniTodolist,
+            hrefDemo: 'https://aliakseishu.github.io/mini-todo/',
+            hrefCode: 'https://github.com/AliakseiShu/mini-todo',
         },
         {
             id: 2,
@@ -38,6 +39,12 @@ export const Portfolio = () => {
             img: sneaker,
             hrefDemo: 'https://aliakseishu.github.io/internet-shop/',
             hrefCode: 'https://github.com/AliakseiShu/internet-shop',
+        },
+        {
+            id: 6,
+            img: todolist,
+            hrefDemo: '',
+            hrefCode: 'https://github.com/AliakseiShu/my-todolist',
         },
     ]
 
